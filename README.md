@@ -4,25 +4,7 @@
 
 ## Información del Desarrollo
 
-Este proyecto fue desarrollado con .Net 6.
-
-## Patrones de Diseño Aplicados
-
-- Mediator
-- CQRS
-- Repository
-- Unit of work
-- Event sourcing
-- Value object
-- DTO
-- Data access
-- Catch exceptions
-- Services
-
-## Arquitectura Limpia
-
-- Domain-driven design.
-- Arquitectura hexagonal con modificaciones del creador.
+Este proyecto fue desarrollado con Angular v16.0.4
 
 ## Infraestructura
 
