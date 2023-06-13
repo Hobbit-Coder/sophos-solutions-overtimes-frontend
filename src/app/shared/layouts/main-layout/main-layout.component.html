@@ -1,0 +1,38 @@
+<app-progess-bar></app-progess-bar>
+<!-- Sidebar -->
+<mat-sidenav-container class="h-screen">
+  <mat-sidenav #sidebar mode="side" opened class="w-52">
+    <h1 class="text-2xl font-bold m-4">Main Menu</h1>
+    <hr>
+    <div>
+      <mat-nav-list>
+        <a mat-list-item routerLinkActive="active" appAccessRole
+          [roles]="['GeneralManager', 'AreaManager','HumanTalentManager']" routerLink="/employees"><mat-icon
+            class="pt-1">group</mat-icon>Employees</a>
+        <a mat-list-item routerLinkActive="active" appAccessRole [roles]="['GeneralManager']"
+          routerLink="/areas">Areas</a>
+        <a mat-list-item routerLinkActive="active" routerLink="/overtimes">Overtimes</a>
+        <!-- Agrega más enlaces según sea necesario -->
+      </mat-nav-list>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <!-- Navbar -->
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <button mat-icon-button (click)="sidebar?.toggle()">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <h1>Overtimes App</h1>
+        <span class="flex-grow"></span>
+        <button (click)="OnSignOut()">
+          Sign out
+        </button>
+      </mat-toolbar-row>
+    </mat-toolbar>
+    <!-- Contenido principal -->
+    <div class="container mx-auto">
+      <ng-content></ng-content>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

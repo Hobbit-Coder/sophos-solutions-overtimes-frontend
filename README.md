@@ -1,4 +1,47 @@
-# SophosSolutionsOvertimesFrontend
+# Repositorio de Desarrollo
+
+¡Hola! Muchas gracias por visitar mi repositorio.
+
+## Información del Desarrollo
+
+Este proyecto fue desarrollado con .Net 6.
+
+## Patrones de Diseño Aplicados
+
+- Mediator
+- CQRS
+- Repository
+- Unit of work
+- Event sourcing
+- Value object
+- DTO
+- Data access
+- Catch exceptions
+- Services
+
+## Arquitectura Limpia
+
+- Domain-driven design.
+- Arquitectura hexagonal con modificaciones del creador.
+
+## Infraestructura
+
+- Docker
+
+## Instrucciones para Probar el Proyecto
+
+1. Clonar el proyecto.
+2. ¡Importante! Agregar la url de la [Web API](https://github.com/Hobbit-Coder/sophos-solutions-overtimes-backend.git) en el archivo "environment.develop.ts".
+3. Seguir los pasos descritos en la seccion "Development server" de angular para ejecutar el proyecto.
+
+## Usuarios de pruebas
+
+email: admin@test.com
+contraseña: Admin1234*
+
+email: collaborator@test.com
+contraseña: Admin1234*
+# Development server
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
 
@@ -6,22 +49,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Notas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+El objetivo del ejercicio en el proyecto frontend no se logró al 100%, es necesario generar mas interfaces de usuario descritas en el documento para el funcionamiento productivo de la aplicación
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## ¡Muchas gracias por tu gran atención!
