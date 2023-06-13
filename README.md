@@ -6,6 +6,11 @@
 
 Este proyecto fue desarrollado con Angular v16.0.4
 
+## Librías utlizadas
+
+- Angular material
+- Tailwind css
+
 ## Infraestructura
 
 - Docker
